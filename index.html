@@ -1,262 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Kaushik Roy</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!--         
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  -->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-    </head>
-    <body>
-        <div class="container justify-content-center">
-            <div class="card md-8">
-              <div class="row">
-                <div class="col-md-3">
-                  <img src="img/kaushik.jpg" class="card-img" alt="...">
-                </div>
-                <div class="col-md-5">
-                  <div class="card-body">
-                  <h3>Kaushik Roy</h3>
-                  <h5>Postdoctoral Research Fellow @ Data61, Commonwealth Scientific and Industrial Research Organisation (CSIRO), Australia</h5>
-<!--                     <p class="card-text"></p> -->
-                    <ul class="list-unstyled">
-<!--                         <li><i class="fa fa-calendar"></i> 11th September, 1988</li> -->
-                        <li><i class="fa fa-phone"></i> (+61) 0426776437</li>
-                        <li><i class="fa fa-envelope"></i> kaushik.roy.bd@gmail.com</li>
-                        <li><i class="fa fa-map-marker"></i> Sherwood, QLD 4075, Australia</li>
-                        <li><i class="fa fa-home"></i> Bagerhat, Bangladesh</li>
-                    </ul>
-                      <ul class="list-inline">
-                        <li class="list-inline-item"><a href="https://github.com/bit0123" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
-                        <li class="list-inline-item"><a href="https://stackoverflow.com/users/5136550/bit01" target="_blank"><i class="fab fa-stack-overflow fa-2x"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/kaushik-roy-bd/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
-                        <li class="list-inline-item"><a href="https://scholar.google.com.au/citations?user=gxDwvGIAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar ai-2x"></i></a></li>
-                        <li class="list-inline-item"><a href="img/CV_Kaushik_Roy.pdf" target="_blank"><i class="fas fa-file-alt fa-2x" style="color: #3b82f6;"></i></a></li>
-                      </ul>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card-body">
-                    <div>
-                    <h5>Interested in:</h5>
-                        <!--<a class="badge badge-warning">Classification</a>--!>
-                        <!--<a class="badge badge-warning">Detection</a>-->
-                        <!--<a class="badge badge-warning">Segmentation</a>-->
-                        <!--<a class="badge badge-warning">Scene Understanding</a>-->
-                        <!--<a class="badge badge-warning">3D Reconstruction</a>-->
-                        <a class="badge badge-warning">Continual Learning</a>
-                        <a class="badge badge-warning">Federated Learning</a>
-                        <a class="badge badge-warning">Machine Learning</a>
-                        <a class="badge badge-warning">Deep Learning</a>
-                        <a class="badge badge-warning">Computer Vision</a>
-                        <a class="badge badge-warning">Generative AI</a>
-                        <a class="badge badge-warning">Robotics</a>
-                    </div>
-                    <hr>
-                    <div>
-                    <h5>Expertise:</h5>
-                        <a class="badge badge-info">Python</a>
-                        <a class="badge badge-info">PyTorch</a>
-                        <a class="badge badge-info">Tensorflow</a>
-                        <a class="badge badge-info">LangChain</a>
-                        <a class="badge badge-info">OpenCV</a>
-                        <a class="badge badge-info">NumPy</a>
-                        <a class="badge badge-info">Matplotlib</a>
-                    </div>
-                    <hr>
-                    <div>
-                    <h6 style="color:red;"><b>***Open for Research Collaboration***</b></h6> Email : kaushik.roy@data61.csiro.au
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kaushik Roy — Postdoctoral Research Fellow, CSIRO</title>
+<meta name="description" content="Dr. Kaushik Roy — Postdoctoral Research Fellow at CSIRO Technology. Research in lifelong learning, robot vision, computer vision, and foundation models for robotics." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ==================== NAV ==================== -->
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top">
+      <img class="mono" src="imgs/profile.png" alt="Kaushik Roy" />
+      <span>Kaushik Roy<small>Postdoctoral Research Fellow</small></span>
+    </a>
+    <nav>
+      <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('menu').classList.toggle('open')">&#9776;</button>
+      <ul id="menu">
+        <li><a href="#about" onclick="closeMenu()">About</a></li>
+        <li><a href="#news" onclick="closeMenu()">News</a></li>
+        <li><a href="#publications" onclick="closeMenu()">Publications</a></li>
+        <li><a href="#experience" onclick="closeMenu()">Experience</a></li>
+        <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ==================== HERO ==================== -->
+<section class="hero" id="top" style="padding-top:52px;">
+  <div class="wrap hero-grid">
+    <div class="avatar"><img src="imgs/profile.png" alt="Dr. Kaushik Roy" /></div>
+    <div>
+      <h1>Dr. Kaushik Roy</h1>
+      <div class="role">Postdoctoral Research Fellow</div>
+      <div class="org">Technology, Commonwealth Scientific and Industrial Research Organisation (CSIRO), Australia</div>
+
+      <div class="contact-row">
+        <a href="mailto:kaushik.roy@csiro.au">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          kaushik.roy@csiro.au
+        </a>
+        <a href="tel:+61426776437">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          (+61) 0426 776 437
+        </a>
+        <span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Sherwood, QLD 4075, Australia
+        </span>
+      </div>
+
+      <div class="social-row">
+        <div class="socials">
+        <a href="mailto:kaushik.roy@csiro.au" title="Email" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        </a>
+        <a href="https://github.com/bit0123" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.9 10.9c.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0C17 4.6 18 4.9 18 4.9c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.6.8.5A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg>
+        </a>
+        <a href="https://scholar.google.com/citations?user=Kaushik+Roy" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3zM5 13.2V17c0 1.7 3.1 3 7 3s7-1.3 7-3v-3.8l-7 3.8-7-3.8z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/kaushik-roy-bd/" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.05c.53-1 1.83-2.2 3.77-2.2 4 0 4.75 2.6 4.75 6.1V24h-4v-7c0-1.67-.03-3.8-2.3-3.8-2.32 0-2.67 1.8-2.67 3.68V24h-4V8z"/></svg>
+        </a>
         </div>
-        </br>
-        
-        <div class="container justify-content-center"><div class="card md-5">
-<!--             <h4><b>About Me</b></h4> -->
-                I am a Postdoctoral Fellow at CSIRO, developing deep learning strategies for robot vision and mobile manipulation. My research focuses on designing adaptive AI models that generalize across diverse environments while ensuring robust performance.
-                During my PhD at Monash University, under the supervision of Dr. Mehrtash Harandi and Dr. Peyman Moghadam, I worked on lifelong learning, enabling AI models to adapt continuously while retaining prior knowledge. My work has been published in top-tier venues, including Neural Networks, ICRA (CORE A*), and MICCAI (CORE A). I also contribute as a reviewer for IEEE TPAMI, ICLR, and other leading AI conferences and journals.
-                Beyond academia, my experience as a Computer Vision Engineer has allowed me to bridge research and real-world applications. I am committed to open and reproducible science and have expertise in deep learning (PyTorch, TensorFlow), machine learning, and programming (Python, C++). Additionally, I am always eager to learn new tools and technologies.
-        </div></div>
-        </br>
-        
-        <div class="container justify-content-center"><div class="card md-5">
-            <h4><b>News & Updates</b></h4>
-            <ul>
-                <li>Feb 1, 2026: Two papers have been accepted for presentation at the 2026 IEEE International Conference on Robotics and Automation (ICRA), June 1–5, 2026, Vienna, Austria. </li>
-                <li>Dec 27, 2025: One paper has been accepted for publication by IEEE Access. </li>
-                <li>Jan 28, 2025: One paper has been accepted for presentation at the 2025 IEEE International Conference on Robotics and Automation (ICRA), May 19-23, 2025, Atlanta, USA</li>
-                <li>Feb 21, 2024: Graduated from Monash University, Australia</li>
-                <li>Jan 15, 2024: Started as a Postdoctoral Research Fellow with Data61, CSIRO, Australia</li>
-                <li>Mar 1, 2020: Began Ph.D. in Lifelong Learning with Deep Neural Networks at Monash University, Australia</li>
-            </ul>
-        </div></div>
-        </br>
-        <div class="container justify-content-center"><div class="card md-5">
-            <h4><b>Publications</b></h4>
-            <ul>
-                <li><p>
-                    <a target="_blank" href="https://arxiv.org/abs/2410.00064"><b>SPREAD: Subspace Representation Distillation for Lifelong Imitation Learning</b></a></br>
-                    K. Roy, G. Durso, N. Lawrance, B. Tidd, P. Moghadam </br> International Conference on Robotics and Automation (ICRA), 2026
-                </p></li>
-                <li><p>
-                    <a target="_blank" href="https://arxiv.org/abs/2410.00064"><b>WildCross: A Cross-Modal Large Scale Benchmark for Place Recognition and Metric Depth Estimation in Natural Environments</b></a></br>
-                    J. Night, J. Reid, K. Roy, D. Hall, M. Cox, P. Moghadam </br> International Conference on Robotics and Automation (ICRA), 2026
-                </p></li>
-                <li><p>
-                    <a target="_blank" href="https://ieeexplore.ieee.org/document/11270869/"><b>DUAL3D-Fed: Dual Distillation for 3D Continual Federated Learning With Vision–Language Models</b></a></br>
-                    K. Roy, M. Harandi, P. Moghadam </br> IEEE Access, 2025
-                </p></li>
-                <li><p>
-                    <a target="_blank" href="https://arxiv.org/abs/2410.00064"><b>M2Distill: Multi-Modal Distillation for Lifelong Imitation Learning</b></a></br>
-                    K. Roy, A. Dissanayake, B. Tidd, P. Moghadam </br> International Conference on Robotics and Automation (ICRA), 2025
-                </p></li>
-                <li><p>
-                    <a target="_blank" href="https://link.springer.com/chapter/10.1007/978-3-031-43895-0_12"><b>L3DMC: Lifelong Learning using Distillation via Mixed-Curvature Space</b></a></br>
-                    K. Roy, P. Moghadam, M. Harandi </br> International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2023
-                </p></li>
-                <li><p>
-                    <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0893608023004057"><b>Subspace distillation for continual learning</b></a></br>
-                    K. Roy, C. Simon, P. Moghadam, M. Harandi </br> Neural Networks, 2023
-                </p></li>
-                <li><p>
-                    <a target="_blank" href="https://www.mdpi.com/2313-433X/9/12/259"><b>CL3: Generalization of Contrastive Loss for Lifelong Learning</b></a></br>
-                    K. Roy, C. Simon, P. Moghadam, M. Harandi </br> Journal of Imaging, 2023
-                </p></li>
-                <li><p>
-                    <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/8384226/"><b>Background subtraction using dominant directional pattern</b></a></br>
-                    K. Roy, R. Arefin, F. Makhmudkhujaev, O. Chae, J. Kim </br> IEEE Access, 2018
-                </p></li>
-                <li><p>
-                    <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/8078549/"><b>An adaptive fusion scheme of color and edge features for background subtraction</b></a></br>
-                    K. Roy, J. Kim, MTB. Iqbal, F. Makhmudkhujaev, B. Ryu, O. Chae </br> IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS), 2017
-                </p></li>
-            </ul>
-        </div></div>
-        
-        <div class="container">
-            <h4><b>Education & Experience</b></h4><hr>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="main-timeline7">
-                        <div class="timeline">
-                            <div class="timeline-icon"><i class="fas fa-regular fa-robot"></i></div>
-                            <span class="year">Jan 2024 - Cont.</span>
-                            <div class="timeline-content">
-                                <h3 class="title">Research Fellow, CSIRO, Australia</h3>
-<!--                                 <p class="description"></p> -->
-                                <ul class="list-unstyled">
-                                    <li>Machine Learning</li>
-                                    <li>Robotics</li>
-                                </ul>
-                                <span class="badge badge-pill badge-success">Python</span>
-                                <span class="badge badge-pill badge-success">PyTorch</span>
-                                <span class="badge badge-pill badge-success">Research</span>
-                                <span class="badge badge-pill badge-success">Publication</span>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-icon"><i class="fas fa-university"></i></div>
-                            <span class="year">Mar 2020 - Sept 2023</span>
-                            <div class="timeline-content">
-                                <h3 class="title">PhD Student, Dept. of ECSE, Monash University, Australia</h3>
-<!--                                 <p class="description"></p> -->
-                                <ul class="list-unstyled">
-                                    <li>Lifelogn Continual Learning</li>
-                                    <li>Deep Learning</li>
-                                    <li>Computer Vision</li>
-                                </ul>
-                                <span class="badge badge-pill badge-success">Python</span>
-                                <span class="badge badge-pill badge-success">PyTorch</span>
-                                <span class="badge badge-pill badge-success">Teaching</span>
-                                <span class="badge badge-pill badge-success">Publication</span>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-icon"><i class="fas fa-eye"></i></div>
-                            <span class="year">Nov 2017 - Feb 2020</span>
-                            <div class="timeline-content">
-                                <h3 class="title">Computer Vision Engineer (R&D), MOPIC Co., Ltd. South Korea</h3>
-<!--                                 <p class="description"></p> -->
-                                <ul class="list-unstyled">
-                                    <li>Depth Estimation from Single Image</li>
-                                    <li>Object Detection library development</li>
-                                    <li>3D Video Player</li>
-                                </ul>
-                                <span class="badge badge-pill badge-success">MobileNet</span>
-                                <span class="badge badge-pill badge-success">SSD</span>
-                                <span class="badge badge-pill badge-success">Encoder-Decoder</span>
-                                <span class="badge badge-pill badge-success">Tensorflow</span>
-                                <span class="badge badge-pill badge-success">Python</span>
-                                <span class="badge badge-pill badge-success">Java</span>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-university"></i></div>
-                            <span class="year">Sept 2015 - Sept 2017</span>
-                            <div class="timeline-content">
-                                <h3 class="title">Master of Computer Science & Engineerig, Kyung Hee University, South Korea</h3>
-<!--                                 <p class="description"></p> -->
-                                <ul class="list-unstyled">
-                                    <li>Foreground Segmentation</li>
-                                    <li>Betacam Dropout Error Detection</li>
-                                    <li>Edge and Color Feature Fusion Strategy</li>
-                                </ul>
-                                <span class="badge badge-pill badge-success">C++</span>
-                                <span class="badge badge-pill badge-success">openCV</span>
-                                <span class="badge badge-pill badge-success">Edge Descriptor</span>
-                                <span class="badge badge-pill badge-success">Feature Fusion</span>
-                                <span class="badge badge-pill badge-success">Publication</span>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-laptop"></i></div>
-                            <span class="year">Mar 2013 - Aug 2015</span>
-                            <div class="timeline-content">
-                                <h3 class="title">Software Engineer, Samsung R&D Institute Bangladesh (SRBD)</h3>
-<!--                                 <p class="description"></p> -->
-                                <ul class="list-unstyled">
-                                    <li>Samsung Smart TV SDK</li>
-                                    <li>ProSuggest Commercialiazation</li>
-                                    <li>Object Detection</li>
-                                </ul>
-                                <span class="badge badge-pill badge-success">C++</span>
-                                <span class="badge badge-pill badge-success">openCV</span>
-                                <span class="badge badge-pill badge-success">Scripting</span>
-                                <span class="badge badge-pill badge-success">Android</span>
-                                <span class="badge badge-pill badge-success">Java</span>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-university"></i></div>
-                            <span class="year">Feb 2009 - Dec 2012</span>
-                            <div class="timeline-content">
-                                <h3 class="title">Bachelor of Information Technology, IIT, University of Dhaka, Banglaadesh</h3>
-                                <p class="description"></p>
-                                <ul class="list-unstyled">
-                                    <li>Software Engineering</li>
-                                    <li>Programming</li>
-                                    <li>Application Development</li>
-                                </ul>
-                                <span class="badge badge-pill badge-success">C++</span>
-                                <span class="badge badge-pill badge-success">Java</span>
-                                <span class="badge badge-pill badge-success">OOP</span>
-                                <span class="badge badge-pill badge-success">Internship</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="status-pill"><span class="dot"></span>Open for research collaboration</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== ABOUT ==================== -->
+<section id="about">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">About Me</div>
+      <h2>Making Robots Perceive, Learn, and Adapt</h2>
+      <div class="rule"></div>
+    </div>
+
+    <div class="about-grid">
+      <div class="bio">
+        <!-- <p>I am a Postdoctoral Fellow at CSIRO, developing deep learning strategies for robot vision and mobile manipulation. My research focuses on designing adaptive AI models that generalize across diverse environments while ensuring robust performance.</p>
+        <p>During my PhD at Monash University, under the supervision of Dr. Mehrtash Harandi and Dr. Peyman Moghadam, I worked on lifelong learning — enabling AI models to adapt continuously while retaining prior knowledge. My work has been published in top-tier venues, including <b>Neural Networks</b>, <b>ICRA</b> (CORE A*), and <b>MICCAI</b> (CORE A). I also contribute as a reviewer for <b>IEEE TPAMI</b>, <b>ICLR</b>, and other leading AI conferences and journals.</p>
+        <p>Beyond academia, my experience as a Computer Vision Engineer has allowed me to bridge research and real-world applications. I am committed to open and reproducible science, and I am always eager to learn new tools and technologies.</p> -->
+        <p>I am a Postdoctoral Fellow at CSIRO, where I develop intelligent perception and learning systems that enable robots to perceive, learn, and adapt in complex real-world environments. My research spans computer vision, robot perception, embodied AI, and representation learning, with a focus on building robust, generalizable AI models for autonomous robotics.</p>
+        <p>Previously, I completed my PhD at Monash University under the supervision of Dr. Mehrtash Harandi and Dr. Peyman Moghadam, where I studied lifelong learning—developing AI systems that continuously acquire new knowledge while preserving previously learned capabilities. My research has been published in leading venues, including <b>Neural Networks</b>, <b>ICRA</b> (CORE A*), and <b>MICCAI</b> (CORE A). I also serve as a reviewer for <b>IEEE TPAMI</b>, <b>ICLR</b>, and other premier AI conferences and journals.</p>
+        <p>Beyond academia, my experience as a Computer Vision Engineer has strengthened my ability to translate research into practical robotic systems. I am passionate about advancing trustworthy and reproducible AI and enjoy exploring new ideas, technologies, and collaborations that push the boundaries of intelligent robotics. </p>
+
+        <div class="card interests-card">
+          <h4>Research Interests</h4>
+          <div class="chips">
+            <span class="chip">Continual Learning</span>
+            <span class="chip">Federated Learning</span>
+            <span class="chip">Machine Learning</span>
+            <span class="chip">Deep Learning</span>
+            <span class="chip">Computer Vision</span>
+            <span class="chip">Generative AI</span>
+            <span class="chip">Robotics</span>
+          </div>
         </div>
-        <hr>
-    </body>
+      </div>
+
+      <div class="about-side">
+        <div class="card focus-card">
+          <div class="focus-ic bg-teal">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h8"/><path d="M7 21v-5"/><path d="M4 16h6l2-6"/><rect x="11" y="6" width="7" height="4" rx="1" transform="rotate(20 14.5 8)"/><path d="M18 4l2 2"/></svg>
+          </div>
+          <div><h3>AI for Robotics &amp; Embodied AI</h3><p>Intelligent perception systems for real-world robots.</p></div>
+        </div>
+        <div class="card focus-card">
+          <div class="focus-ic bg-blue">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3" fill="currentColor" stroke="none"/></svg>
+          </div>
+          <div><h3>Computer Vision &amp; Foundation Models</h3><p>Vision transformers and large-scale models.</p></div>
+        </div>
+        <div class="card focus-card">
+          <div class="focus-ic bg-orange">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5"/><path d="M12 12v10"/><path d="M12 12L3 7"/></svg>
+          </div>
+          <div><h3>3D Scene Understanding &amp; Localization</h3><p>From perception to spatial intelligence.</p></div>
+        </div>
+        <div class="card focus-card">
+          <div class="focus-ic bg-purple">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M3 21v-5h5"/><path d="M21 3v5h-5"/></svg>
+          </div>
+          <div><h3>Lifelong &amp; Federated Learning</h3><p>Learning continuously in dynamic environments.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== NEWS ==================== -->
+<section id="news" style="background:#fff; border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Recent</div>
+      <h2>News &amp; Updates</h2>
+      <div class="rule"></div>
+    </div>
+    <ul class="news-list">
+      <li class="news-item"><div class="date">Jul 6, 2026</div><p>One paper accepted for presentation at the <b>RSS 2026</b> workshop on Data-Centric Robotics, Jul 17, 2026, Sydney, Australia.</p></li>
+      <li class="news-item"><div class="date">Jun 17, 2026</div><p>One paper accepted for presentation at the <b>IEEE IROS 2026</b>, Sep 27 – Oct 1, 2026, Pittsburgh, Pennsylvania, USA.</p></li>
+      <li class="news-item"><div class="date">Feb 1, 2026</div><p>Two papers accepted for presentation at the <b>IEEE ICRA 2026</b>, June 1–5, 2026, Vienna, Austria.</p></li>
+      <li class="news-item"><div class="date">Dec 27, 2025</div><p>One paper accepted for publication by <b>IEEE Access</b>.</p></li>
+      <li class="news-item"><div class="date">Jan 28, 2025</div><p>One paper accepted for presentation at the <b>IEEE ICRA 2025</b>, May 19–23, 2025, Atlanta, USA.</p></li>
+      <li class="news-item"><div class="date">Feb 21, 2024</div><p>Graduated from <b>Monash University</b>, Australia.</p></li>
+      <li class="news-item"><div class="date">Jan 15, 2024</div><p>Started as a <b>Postdoctoral Research Fellow</b> with Technology, CSIRO, Australia.</p></li>
+      <li class="news-item"><div class="date">Mar 1, 2020</div><p>Began <b>Ph.D. in Lifelong Learning</b> with Deep Neural Networks at Monash University, Australia.</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ==================== PUBLICATIONS ==================== -->
+<section id="publications">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Selected Work</div>
+      <h2>Publications</h2>
+      <div class="rule"></div>
+    </div>
+
+    <div class="card pub">
+      <img class="pub-thumb" src="imgs/pub/spread.png" alt="SPREAD — methodology" />
+      <div class="pub-body">
+        <h3>SPREAD: Subspace Representation Distillation for Lifelong Imitation Learning</h3>
+        <div class="authors"><b>K. Roy</b>, G. Durso, N. Lawrance, B. Tidd, P. Moghadam</div>
+        <div class="meta"><span class="venue v-astar">ICRA · CORE A*</span><span class="pub-year">2026</span></div>
+      </div>
+    </div>
+
+    <div class="card pub">
+      <img class="pub-thumb" src="imgs/pub/wildcross.png" alt="WildCross — methodology" />
+      <div class="pub-body">
+        <h3>WildCross: A Cross-Modal Large-Scale Benchmark for Place Recognition and Metric Depth Estimation in Natural Environments</h3>
+        <div class="authors">J. Night, J. Reid, <b>K. Roy</b>, D. Hall, M. Cox, P. Moghadam</div>
+        <div class="meta"><span class="venue v-astar">ICRA · CORE A*</span><span class="pub-year">2026</span></div>
+      </div>
+    </div>
+
+    <div class="card pub">
+      <img class="pub-thumb" src="imgs/pub/dual3dfed.png" alt="DUAL3D-Fed — methodology" />
+      <div class="pub-body">
+        <h3>DUAL3D-Fed: Dual Distillation for 3D Continual Federated Learning With Vision–Language Models</h3>
+        <div class="authors"><b>K. Roy</b>, M. Harandi, P. Moghadam</div>
+        <div class="meta"><span class="venue v-journal">Journal</span><span class="journal-name">IEEE Access</span><span class="pub-year">2025</span></div>
+      </div>
+    </div>
+
+    <div class="card pub">
+      <img class="pub-thumb" src="imgs/pub/m2distill.png" alt="M2Distill — methodology" />
+      <div class="pub-body">
+        <h3>M2Distill: Multi-Modal Distillation for Lifelong Imitation Learning</h3>
+        <div class="authors"><b>K. Roy</b>, A. Dissanayake, B. Tidd, P. Moghadam</div>
+        <div class="meta"><span class="venue v-astar">ICRA · CORE A*</span><span class="pub-year">2025</span></div>
+      </div>
+    </div>
+
+    <div class="card pub">
+      <img class="pub-thumb" src="imgs/pub/l3dmc.png" alt="L3DMC — methodology" />
+      <div class="pub-body">
+        <h3>L3DMC: Lifelong Learning using Distillation via Mixed-Curvature Space</h3>
+        <div class="authors"><b>K. Roy</b>, P. Moghadam, M. Harandi</div>
+        <div class="meta"><span class="venue v-a">MICCAI · CORE A</span><span class="pub-year">2023</span></div>
+      </div>
+    </div>
+
+    <div class="card pub">
+      <img class="pub-thumb" src="imgs/pub/subspace.png" alt="Subspace Distillation — methodology" />
+      <div class="pub-body">
+        <h3>Subspace Distillation for Continual Learning</h3>
+        <div class="authors"><b>K. Roy</b>, C. Simon, P. Moghadam, M. Harandi</div>
+        <div class="meta"><span class="venue v-journal">Journal</span><span class="journal-name">Neural Networks</span><span class="pub-year">2023</span></div>
+      </div>
+    </div>
+
+    <div class="card pub">
+      <img class="pub-thumb" src="imgs/pub/cl3.png" alt="CL3 — methodology" />
+      <div class="pub-body">
+        <h3>CL3: Generalization of Contrastive Loss for Lifelong Learning</h3>
+        <div class="authors"><b>K. Roy</b>, C. Simon, P. Moghadam, M. Harandi</div>
+        <div class="meta"><span class="venue v-journal">Journal</span><span class="journal-name">Journal of Imaging</span><span class="pub-year">2023</span></div>
+      </div>
+    </div>
+
+    <div class="card pub">
+      <img class="pub-thumb" src="imgs/pub/ddp.png" alt="Dominant Directional Pattern — methodology" />
+      <div class="pub-body">
+        <h3>Background Subtraction using Dominant Directional Pattern</h3>
+        <div class="authors"><b>K. Roy</b>, R. Arefin, F. Makhmudkhujaev, O. Chae, J. Kim</div>
+        <div class="meta"><span class="venue v-journal">Journal</span><span class="journal-name">IEEE Access</span><span class="pub-year">2018</span></div>
+      </div>
+    </div>
+
+    <div class="card pub">
+      <img class="pub-thumb" src="imgs/pub/fusion.png" alt="Color–Edge Fusion — methodology" />
+      <div class="pub-body">
+        <h3>An Adaptive Fusion Scheme of Color and Edge Features for Background Subtraction</h3>
+        <div class="authors"><b>K. Roy</b>, J. Kim, M.T.B. Iqbal, F. Makhmudkhujaev, B. Ryu, O. Chae</div>
+        <div class="meta"><span class="venue v-a">AVSS</span><span class="pub-year">2017</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== EXPERIENCE ==================== -->
+<section id="experience" style="background:#fff; border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Journey</div>
+      <h2>Education &amp; Experience</h2>
+      <div class="rule"></div>
+    </div>
+
+    <ul class="xp">
+      <li class="xp-item">
+        <div class="xp-node"><img src="imgs/logo_csiro.png" alt="CSIRO" /></div>
+        <div class="card xp-card">
+          <div class="xp-date">Jan 2024 — Present</div>
+          <h3>Research Fellow — CSIRO, Australia</h3>
+          <div class="place">AI for Robotics</div>
+          <ul><li>Deep Learning</li><li>Foundation Models</li><li>3D Vision</li><li>Robotics</li></ul>
+          <div class="chips"><span class="chip alt">Python</span><span class="chip alt">PyTorch</span><span class="chip">Research</span><span class="chip">Publication</span></div>
+        </div>
+      </li>
+
+      <li class="xp-item">
+        <div class="xp-node"><img src="imgs/logo_monash.png" alt="Monash University" /></div>
+        <div class="card xp-card">
+          <div class="xp-date">Mar 2020 — Sept 2023</div>
+          <h3>PhD Student — Dept. of ECSE, Monash University, Australia</h3>
+          <div class="place">Lifelong &amp; Continual Learning with Deep Neural Networks</div>
+          <ul><li>Lifelong / Continual Learning</li><li>Deep Learning</li><li>Computer Vision</li></ul>
+          <div class="chips"><span class="chip alt">Python</span><span class="chip alt">PyTorch</span><span class="chip">Teaching</span><span class="chip">Publication</span></div>
+        </div>
+      </li>
+
+      <li class="xp-item">
+        <div class="xp-node"><img src="imgs/logo_mopic.png" alt="MOPIC Co., Ltd." /></div>
+        <div class="card xp-card">
+          <div class="xp-date">Nov 2017 — Feb 2020</div>
+          <h3>Computer Vision Engineer (R&amp;D) — MOPIC Co., Ltd., South Korea</h3>
+          <div class="place">Depth &amp; 3D vision product development</div>
+          <ul><li>Depth Estimation from a Single Image</li><li>Object Detection library development</li><li>3D Video Player</li></ul>
+          <div class="chips"><span class="chip alt">MobileNet-SSD</span><span class="chip alt">Encoder–Decoder</span><span class="chip alt">TensorFlow</span><span class="chip alt">Python</span><span class="chip alt">Java</span></div>
+        </div>
+      </li>
+
+      <li class="xp-item">
+        <div class="xp-node"><img src="imgs/logo_kyunghee.png" alt="Kyung Hee University" /></div>
+        <div class="card xp-card">
+          <div class="xp-date">Sept 2015 — Sept 2017</div>
+          <h3>M.Sc. in Computer Science &amp; Engineering — Kyung Hee University, South Korea</h3>
+          <div class="place">Foreground segmentation &amp; feature fusion</div>
+          <ul><li>Foreground Segmentation</li><li>Betacam Dropout Error Detection</li><li>Edge &amp; Color Feature Fusion Strategy</li></ul>
+          <div class="chips"><span class="chip alt">C++</span><span class="chip alt">OpenCV</span><span class="chip">Edge Descriptor</span><span class="chip">Publication</span></div>
+        </div>
+      </li>
+
+      <li class="xp-item">
+        <div class="xp-node"><img src="imgs/logo_samsung.png" alt="Samsung" /></div>
+        <div class="card xp-card">
+          <div class="xp-date">Mar 2013 — Aug 2015</div>
+          <h3>Software Engineer — Samsung R&amp;D Institute Bangladesh (SRBD)</h3>
+          <div class="place">Smart TV platform &amp; computer vision</div>
+          <ul><li>Samsung Smart TV SDK</li><li>ProSuggest commercialization</li><li>Object Detection</li></ul>
+          <div class="chips"><span class="chip alt">C++</span><span class="chip alt">OpenCV</span><span class="chip alt">Android</span><span class="chip alt">Java</span></div>
+        </div>
+      </li>
+
+      <li class="xp-item">
+        <div class="xp-node"><img src="imgs/logo_dhaka.png" alt="University of Dhaka" /></div>
+        <div class="card xp-card">
+          <div class="xp-date">Feb 2009 — Dec 2012</div>
+          <h3>B.Sc. in Information Technology — IIT, University of Dhaka, Bangladesh</h3>
+          <div class="place">Software engineering foundations</div>
+          <ul><li>Software Engineering</li><li>Programming</li><li>Application Development</li></ul>
+          <div class="chips"><span class="chip alt">C++</span><span class="chip alt">Java</span><span class="chip">OOP</span><span class="chip">Internship</span></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ==================== RESEARCH AREAS / KEY FOCUS ==================== -->
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">At a Glance</div>
+      <h2>Research Areas &amp; Focus</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="split">
+      <div class="card panel">
+        <h3>RESEARCH AREAS</h3>
+        <div class="ra-grid">
+          <div class="ra-item"><div class="ra-ic"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="8" width="14" height="10" rx="2.5"/><path d="M12 8V5"/><circle cx="12" cy="4" r="1.3" fill="var(--teal)"/><circle cx="9.5" cy="13" r="1.4" fill="var(--teal)"/><circle cx="14.5" cy="13" r="1.4" fill="var(--teal)"/><path d="M2 12v3"/><path d="M22 12v3"/></svg></div><p>Robotics &amp; Embodied AI</p></div>
+          <div class="ra-item"><div class="ra-ic"><svg viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3.2" fill="var(--blue)" stroke="none"/></svg></div><p>Computer Vision</p></div>
+          <div class="ra-item"><div class="ra-ic"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5l5 2.8v5.2l-5 2.8-5-2.8V5.3z"/><path d="M7 13l-4.5 2.6v4.3L7 22.5l4.5-2.6v-4.3z"/><path d="M17 13l-4.5 2.6v4.3L17 22.5l4.5-2.6v-4.3z"/></svg></div><p>3D Scene Understanding</p></div>
+          <div class="ra-item"><div class="ra-ic"><svg viewBox="0 0 24 24" fill="none" stroke="var(--purple)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.2 7-12A7 7 0 0 0 5 10c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.6" fill="var(--purple)" stroke="none"/></svg></div><p>Visual Place Recognition</p></div>
+          <div class="ra-item"><div class="ra-ic"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18"/><path d="M3 12h18"/><path d="M3 17h18"/><circle cx="8" cy="7" r="2.1" fill="#fff"/><circle cx="15" cy="12" r="2.1" fill="#fff"/><circle cx="10" cy="17" r="2.1" fill="#fff"/></svg></div><p>Depth &amp; Occupancy Prediction</p></div>
+          <div class="ra-item"><div class="ra-ic"><svg viewBox="0 0 24 24" fill="none" stroke="var(--purple)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M3 21v-5h5"/><path d="M21 3v5h-5"/></svg></div><p>Lifelong &amp; Continual Learning</p></div>
+        </div>
+      </div>
+
+      <div class="card panel">
+        <h3>KEY FOCUS</h3>
+        <div class="kf-item"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><p>Developing robust, generalizable perception systems for real-world robotics.</p></div>
+        <div class="kf-item"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><p>Leveraging foundation models and 3D geometry for scalable solutions.</p></div>
+        <div class="kf-item"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><p>Enabling robots to perceive, localize and adapt in dynamic environments.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== CONTACT / CTA ==================== -->
+<section id="contact" style="padding-top:0;">
+  <div class="wrap">
+    <div class="cta">
+      <h2>Open for Research Collaboration</h2>
+      <p>Interested in continual learning, robot vision, or foundation models for robotics? I'd love to connect and explore ideas together.</p>
+      <a class="btn" href="mailto:kaushik.roy@csiro.au">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        kaushik.roy@csiro.au
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    &copy; <span id="yr"></span> Kaushik Roy · Postdoctoral Research Fellow, CSIRO Technology ·
+    <a href="mailto:kaushik.roy.bd@gmail.com">kaushik.roy.bd@gmail.com</a>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  function closeMenu(){ var m=document.getElementById('menu'); if(m) m.classList.remove('open'); }
+</script>
+</body>
 </html>
